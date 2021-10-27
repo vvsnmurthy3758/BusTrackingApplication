@@ -1,0 +1,84 @@
+Bus Tracking Application 
+
+  Contents
+Abstract
+Introduction
+
+E-R Diagram
+Dataflow Diagram
+Flow chart
+Work flow architechture
+
+Existing System & Disadvantages
+Proposal & Advatages
+
+Architechture
+Inputs & Outputs
+Code
+
+Result
+Reference
+
+
+
+ABSTRACT
+
+The present generation requires the information time to time.The use of technogology 
+have been increasing day by day.So we are planning for the combination of present 
+technology with the requirement of information transmission, we planned for the 
+creative approach of “Bus Tracking System”.
+ 
+To overcome the drawbacks of the previous methods of paper based 
+and we introduce a project to track a vehicle using GPS(Indian navic System). This Vehicle 
+Tracking System can also be used for Tracking System and many more, by just making few changes in hardware and 
+software and widely in tracking Cabs/Taxis, stolen vehicles, school/colleges buses 
+etc
+
+sensors
+
+There are three main categories of sensors that smartphone having.
+()Motion Sensors
+()Environment Sensors
+()Position Sensors
+
+Let's see standard sensors that your smartphone is having.
+1.Accelerometer
+2.Ambient Light Sensor
+3.Ambient Temperature Sensor
+4.Air Humidity Sensor
+5.Barometer Sensor
+6.Finger Print Sensor
+7.Gyroscope Sensor
+8.Harmful Radiation Sensor
+9.Magnetometer
+10.NFC Sensor
+11.Proximity Sensor
+12.Pedometer Sensor
+
+
+
+Frontend Development
+a)User Interface Design(form Creation)
+03/08/2021(loin, sinup form)
+04/0/2021(3 home pages)
+
+Persons
+1.manager
+2.Driver
+3.Users
+
+25/0/2021-database erdiagrams
+
+manaer-name,id,company
+driver-name ,id,company,veicle number,source_location,destination location
+user/customer-name,id,
+
+
+project Dairy
+---------------
+weekly tasks
+guide signature with date
+
+
+nationallevel seminars participation certificate -10M
+hacathon-

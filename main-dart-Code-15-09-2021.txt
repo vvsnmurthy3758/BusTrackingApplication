@@ -1,0 +1,107 @@
+import 'package:flutter/material.dart';
+import 'busses_list.dart';
+void main(){
+  runApp(MyApp());
+}
+class MyApp extends StatefulWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+
+
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: SafeArea(
+        child: Scaffold(
+          appBar: AppBar(
+            title: Center(child: Text('BTADesinOne')),
+          ),
+          body: Column(
+            children:[Card(
+              borderOnForeground: true,
+              shadowColor: Colors.blueGrey,
+              elevation: 30.0,
+              color: Colors.white,
+              child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: TextButton(child: Text('Add Vehicle'),onPressed: () {
+                    setState(() {
+                      busses.add(Card(
+                        borderOnForeground: true,
+                        shadowColor: Colors.red,
+
+                        elevation: 30.0,
+                        color: Colors.white,
+                        child: Padding(
+                          padding: const EdgeInsets.all(16.0),
+                          child: Expanded(
+                            child: Row(
+                              children: [
+                                Image.asset('images/buspic1.png',scale: 5.0,),
+                                Column(
+                                  children: [
+
+                                    Text('Bus Number  Ap05BB8116'),
+                                    Text('Start       Kakinada'),
+                                    Text('Destintion  Vijayawada'),
+                                    Text('Travel Time 5hr 30min'),
+
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                        ),
+                      ),);
+                    });
+
+                  },)
+              ),
+            ),
+            Column(
+              children: busses,
+            )
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+}
+
+List<Widget> busses= [
+
+  Card(
+    borderOnForeground: true,
+    shadowColor: Colors.blueGrey,
+    elevation: 30.0,
+    color: Colors.white,
+    child: Padding(
+      padding: const EdgeInsets.all(16.0),
+      child: Expanded(
+        child: Row(
+          children: [
+            Image.asset('images/buspic1.png',scale: 5.0,),
+            Column(
+              children: [
+
+                Text('Bus Number  Ap05BB8116'),
+                Text('Start       Kakinada'),
+                Text('Destintion  Vijayawada'),
+                Text('Travel Time 5hr 30min'),
+
+              ],
+            )
+          ],
+        ),
+      ),
+    ),
+  ),
+];
